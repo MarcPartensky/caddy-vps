@@ -1,4 +1,4 @@
 push: build
-	docker push marcpartensky/caddy-vps
+	docker push marcpartensky/caddy
 build:
-	docker build . -t marcpartensky/caddy-vps
+	docker build . -t marcpartensky/caddy
